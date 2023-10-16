@@ -53,18 +53,22 @@
 </head>
 
 <body>
+  
+    
+    
 <h1 id="title">MoodyAi.</h1>
   <div class="main">
   <div class="mood-card">
 <form id="form" method="post" action="/">
-  <label>Choose Your Mood</label>
+  <marquee>Choose your Mood</marquee><br><br>
+  
   
   <select id="media" name="media" class="form-control">
    <option value="" disabled selected>Select a Media*</option>
     <option value="movies">Movies</option>
     <option value="songs">Songs</option>
     <option value="playlists">Playlists</option>
-  </select>
+  </select><br><br>
 
   <select id="region" name="region" class="form-control">
     <option value="" disabled selected>Select a Country</option>
@@ -257,7 +261,7 @@
 <option value="SK">Slovakia</option>
 <option value="SI">Slovenia</option>
 <option value="SB">Solomon Islands</option>
-<option value="SO">Somalia</option
+<option value="SO">Somalia</option>
 <option value="ZA">South Africa</option>
 <option value="GS">South Georgia and the South Sandwich Islands</option>
 <option value="KR">South Korea</option>
@@ -302,18 +306,19 @@
 <option value="YE">Yemen</option>
 <option value="ZM">Zambia</option>
 <option value="ZW">Zimbabwe</option>
-</select>
+</select><br><br>
   <div id="languages-container"></div>
   <select id="searchSafe" name="searchSafe" class="form-control">
     <option value="" disabled selected>Select Search mode</option>
-    <option value="true">Safe Search: On</option>
-    <option value="false">Safe Search: off</option>
-  </select>
-  <textarea id="content" name="content" class="form-control" placeholder="Describe your mood*" required></textarea>
+    <option value="true">Safe Search: On</option><br><br>
 
-<textarea type="text" id="keyword" name="keyword" class="form-control" placeholder="Enter Keyword:- 90's, kk"></textarea>
+    <option value="false">Safe Search: off</option><br><br>
+  </select><br><br>
+  <textarea id="content" name="content" class="form-control" placeholder="Describe your mood*" required></textarea><br><br>
+
+<textarea type="text" id="keyword" name="keyword" class="form-control" placeholder="Enter Keyword:- 90's, kk"></textarea><br><br>
 <br>
-  <input id="find-btn" type="submit" value="Find">
+  <input  type="submit" value="Find">
   
 </form>
 

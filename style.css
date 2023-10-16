@@ -1,0 +1,34 @@
+h1{
+    color:azure;
+    text-align:center;
+}
+input[type="submit"]
+{
+    background-color:cadetblue;
+    border: none;
+    color:white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    margin: 4px 2px;
+    cursor:pointer;
+    position: absolute;
+    left:0px;
+    right: 0px;
+    bottom: 0px;
+    font-size: 12px;
+}
+body{
+    background-image: linear-gradient(to bottom left,#8B0000,#006400,#008080,#FF00FF,#FFB6C1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+select{
+    text-align-last: center;
+}
+option{
+    text-align: center;
+}
